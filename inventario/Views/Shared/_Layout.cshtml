@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width" />
+    <!--Para dejar el título dinámico se agrega el "Title" en el viewbag-->
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <nav>
+        <p>aquí irá el menú</p>
+    </nav>
+    <div> 
+        <!--Se cargan las páginas sobre el layout-->
+        @RenderBody()
+    </div>
+    <hr />
+    <footer>Esta es mi primera página - @DateTime.Now</footer>
+</body>
+</html>
