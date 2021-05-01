@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Crear Marca";
+}
+
+<h2>Create</h2>
+
+<div>
+    <form method="post" action="/marcas/Create">
+        <div>
+            <label>Nombre</label>
+            <div>
+                <input type="text" name="nombre"/>
+            </div>
+        </div>
+        <div>
+            <label>Descripción</label>
+            <div>
+                <input type="text" name="descripcion" />
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="Guardar"/>
+        </div>
+    </form>
+</div>
+
